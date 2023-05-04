@@ -3,7 +3,7 @@
 
 ## Key Features of v0.41.2:
 
- ### Promotion of GitOps related APIs to v1:
+ ### 1. Promotion of GitOps related APIs to v1:
 
    GitRepository
 
@@ -11,7 +11,7 @@
 
    Receiver
 
- ### Horizontal scaling & sharding to Flux controllers
+ ### 2. Horizontal scaling & sharding to Flux controllers
 
  
 
