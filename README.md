@@ -1,5 +1,7 @@
 # flux-example
 
+# Flux Upgrade from v0.41.2 to v2.0.0-rc.1
+
 
 Key Features of v0.41.2:
 
@@ -17,19 +19,19 @@ Horizontal scaling & sharding to Flux controllers
 
 Steps :
 
-Upgrading GitRepository to v1
+ Upgrading GitRepository to v1
 
-set apiVersion: source.toolkit.fluxcd.io/v1 in the YAML files that contain GitRepository definitions and remove the deprecated fields:
+ set apiVersion: source.toolkit.fluxcd.io/v1 in the YAML files that contain GitRepository definitions and remove the deprecated fields:
 
-the deprecated field .spec.gitImplementation was removed
+    the deprecated field .spec.gitImplementation was removed
 
-the unused field .spec.accessFrom was removed
+    the unused field .spec.accessFrom was removed
 
-the deprecated field .status.contentConfigChecksum was removed
+    the deprecated field .status.contentConfigChecksum was removed
 
-the deprecated field .status.artifact.checksum was removed
+    the deprecated field .status.artifact.checksum was removed
 
-the .status.url was removed in favor of the absolute .status.artifact.url
+    the .status.url was removed in favor of the absolute .status.artifact.url
 
 Upgrading Kustomization to v1
 
