@@ -1,4 +1,4 @@
-# Flux Upgrade from v0.41.2 to v2.0.0-rc.1
+# Flux Upgrade from v0.41.2 to v2.0.0
 
 
 ## Key Features of v0.41.2:
